@@ -22,7 +22,7 @@ Every other skill delegates data retrieval here. This skill owns the 14 tools, t
 | LPGA, LIV, DP World Tour | Leaderboards, round scores and the rating. No hole-by-hole, no odds |
 | Korn Ferry Tour | Leaderboards, round scores and hole-by-hole from 2007. No odds |
 
-Data is public ESPN data loaded and checked by BirdieAPI. It is historical and next-morning, not a live feed.
+Data is loaded and checked by BirdieAPI. It is historical and next-morning, not a live feed.
 
 ## Connecting
 
@@ -58,7 +58,7 @@ Most tools take `league`: `golf` (the default, the PGA Tour), `lpga`, `liv`, `dp
 - `get_winner_odds` has no `league` argument. It holds the four men's majors only.
 - The `sg_par3`, `sg_par4`, `sg_par5` stats exist for the PGA Tour and Korn Ferry Tour only. Other tours return null.
 - Ratings are measured within one tour. A 2.0 on the LPGA and a 2.0 on the PGA Tour are not on one scale.
-- Player ids are ESPN's and are shared across tours, so a player's results on two tours join on one id.
+- Player ids are shared across tours, so a player's results on two tours join on one id.
 
 ## Identifiers and seasons
 

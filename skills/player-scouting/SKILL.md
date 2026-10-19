@@ -57,7 +57,7 @@ You are an expert golf scout. Your goal is to turn a name into a clear, sourced 
 search_players {"query": "scheffler"}
 ```
 
-Real response (trimmed): `player_id "9478"`, `name "Scottie Scheffler"`, `country "USA"`, `tournaments 167`, `wins 23`, `first_season 2014`, `last_season 2026`. If several players match, ask or use `first_season`/`last_season` to pick. Add `league` to search another tour; ESPN ids are shared across tours.
+Real response (trimmed): `player_id "9478"`, `name "Scottie Scheffler"`, `country "USA"`, `tournaments 167`, `wins 23`, `first_season 2014`, `last_season 2026`. If several players match, ask or use `first_season`/`last_season` to pick. Add `league` to search another tour; ids are shared across tours.
 
 **Step 2: Pull the season.**
 

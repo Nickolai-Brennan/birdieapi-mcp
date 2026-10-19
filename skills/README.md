@@ -35,7 +35,7 @@ Each skill is a folder with a `SKILL.md`: when to use it, which tools it calls a
 
 ## What the data is, and is not
 
-- Historical and next-morning data from public ESPN sources, loaded and checked by BirdieAPI. Not a live feed.
+- Historical and next-morning data loaded and checked by BirdieAPI. Not a live feed.
 - The rating is the site's own **strokes versus the field** number, built from scores and adjusted for field strength. It is not the official shot-level strokes gained statistic, and there are no shot-level categories (off the tee, approach, putting).
 - Odds are the pre-tournament winner prices of the four men's majors only, from 2021. No other tournaments, no round or matchup or top-10 markets, no each-way terms. The latest price for a past major can be up to a week before the first tee time, so it is not a closing line.
 - Hole-by-hole scores exist for the PGA Tour (since 2001) and the Korn Ferry Tour. The LPGA, LIV and the DP World Tour have round scores only.

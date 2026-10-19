@@ -136,7 +136,7 @@ See [`examples/README.md`](examples/README.md) for details. Get a free key (500 
 | `get_player_stats` | A player's season stats: scoring, birdies, par-3/4/5 scoring, driving, greens, putting |
 | `get_course_history` | A player's record at one tournament or course, every year |
 | `get_head_to_head` | Two players' finishes and rounds in every tournament they both played |
-| `get_leaders` | Season leaders for any stat we compute or ESPN keeps |
+| `get_leaders` | Season leaders for any stat we compute or keep |
 | `get_winner_odds` | The four majors' winner prices by sportsbook before the first round: opening and latest, with implied probability |
 
 Leagues: golf (default, PGA Tour), lpga, liv, dpwt, kornferry (pass `league` to any tool; omit it for the PGA Tour).
@@ -147,7 +147,7 @@ Leagues: golf (default, PGA Tour), lpga, liv, dpwt, kornferry (pass `league` to 
 - LPGA, LIV, the DP World Tour and the Korn Ferry Tour (hole by hole since 2007) in the same tools
 - Courses with par and yardage per hole and how each hole played; player course history; head to head
 - Our strokes-versus-field rating, field-strength adjusted, and par-3/4/5 scoring splits (averages, plus strokes versus the field by hole type for the PGA Tour and Korn Ferry Tour); score-based, not shot-level strokes gained
-- Major winner odds (`get_winner_odds`): outright winner prices of the four men's majors by sportsbook, opening and latest before the first round, every major from 2021 plus the 2020 U.S. Open (The Odds API archive; a past major's latest price can be up to a week before the first tee time), refreshed daily while an upcoming major's market is open and every six hours in tournament week
+- Major winner odds (`get_winner_odds`): outright winner prices of the four men's majors by sportsbook, opening and latest before the first round, every major from 2021 plus the 2020 U.S. Open (a past major's latest price can be up to a week before the first tee time), refreshed daily while an upcoming major's market is open and every six hours in tournament week
 - No round, matchup, top-10 or other-tournament prices, and no prices for the other tours
 
 Coverage by season, read live from the database: https://birdieapi.com/docs
@@ -171,7 +171,7 @@ Coverage by season, read live from the database: https://birdieapi.com/docs
 
 ## Attribution
 
-Golf data from public ESPN data; major winner prices from The Odds API. Ratings are ours. Not affiliated with the PGA Tour, LPGA, LIV Golf, DP World Tour or Korn Ferry Tour.
+Ratings are ours. Not affiliated with the PGA Tour, LPGA, LIV Golf, DP World Tour or Korn Ferry Tour.
 
 ## License
 

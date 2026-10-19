@@ -96,7 +96,7 @@
     },
     {
       "name": "get_leaders",
-      "description": "Season leaders for any stat we compute or ESPN keeps",
+      "description": "Season leaders for any stat we compute or keep",
       "readOnlyHint": true
     },
     {
