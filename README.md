@@ -144,7 +144,7 @@ Leagues: golf (default, PGA Tour), lpga, liv, dpwt, kornferry (pass `league` to 
 ## Data
 
 - PGA Tour leaderboards, rounds and hole-by-hole scores since 2001
-- LPGA, LIV, the DP World Tour and the Korn Ferry Tour (hole by hole since 2007) in the same tools
+- The Korn Ferry Tour (hole by hole since 2007), and round scores for the LPGA, LIV and the DP World Tour, in the same tools
 - Courses with par and yardage per hole and how each hole played; player course history; head to head
 - Our strokes-versus-field rating, field-strength adjusted, and par-3/4/5 scoring splits (averages, plus strokes versus the field by hole type for the PGA Tour and Korn Ferry Tour); score-based, not shot-level strokes gained
 - Major winner odds (`get_winner_odds`): outright winner prices of the four men's majors by sportsbook, opening and latest before the first round, every major from 2021 plus the 2020 U.S. Open (a past major's latest price can be up to a week before the first tee time), refreshed daily while an upcoming major's market is open and every six hours in tournament week
