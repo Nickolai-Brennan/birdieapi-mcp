@@ -95,7 +95,7 @@ get_winner_odds {"tournament_id": "401580344", "limit": 5}
 
 ```bash
 curl -s -X POST https://mcp.birdieapi.com/v1/search_players \
-  -H "x-api-key: $BIRDIEAPI_API_KEY" -H "content-type: application/json" \
+  -H "x-api-key: YOUR_API_KEY" -H "content-type: application/json" \
   -d '{"query": "scheffler"}'
 ```
 
