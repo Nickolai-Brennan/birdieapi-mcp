@@ -7,7 +7,7 @@
   "plugins": [
     {
       "name": "birdieapi-skills",
-      "source": "./",
+      "source": "./plugin",
       "description": "16 golf analytics and betting-model skills"
     }
   ]
