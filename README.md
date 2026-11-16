@@ -120,6 +120,14 @@ node examples/node/quickstart.mjs
 
 See [`examples/README.md`](examples/README.md) for details. Get a free key (500 credits a month, no card) at https://birdieapi.com/signup.
 
+## Use it in
+
+- **Claude, ChatGPT, Cursor, VS Code, Gemini CLI, Grok, Perplexity, Le Chat:** add `https://mcp.birdieapi.com/mcp` as a remote MCP server. Step-by-step for each: https://birdieapi.com/mcp
+- **Gemini CLI:** `gemini extensions install https://github.com/noahowsh/birdieapi-mcp`
+- **Cursor:** the [SportsDataHQ plugins for Cursor](https://github.com/noahowsh/sportsdatahq-cursor-plugins)
+- **Google Sheets:** `=SDHQ("birdieapi","list_tournaments")` fills a live table: https://sportsdatahq.com/sheets
+- **REST:** `POST https://mcp.birdieapi.com/v1/<tool>` with an `x-api-key` header: https://birdieapi.com/docs
+
 ## Tools (14)
 
 | Tool | What it returns |
