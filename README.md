@@ -4,7 +4,7 @@
 
 **The golf data API.** PGA Tour leaderboards with finishing positions, earnings and points, round scores and hole-by-hole scorecards, courses with par and yardage per hole, player and course history, our own strokes-versus-field rating, par-3/4/5 scoring splits and the winner prices of the four men's majors by sportsbook. The LPGA, LIV, the DP World Tour and the Korn Ferry Tour use the same tools. REST API and MCP server. 500 free credits every month, no card.
 
-Website: https://birdieapi.com · Docs: https://birdieapi.com/docs · Get a key: https://birdieapi.com/signup
+Website: https://birdieapi.com?utm_source=github&utm_medium=readme&utm_campaign=birdieapi-mcp · Docs: https://birdieapi.com/docs?utm_source=github&utm_medium=readme&utm_campaign=birdieapi-mcp · Get a key: https://birdieapi.com/signup?utm_source=github&utm_medium=readme&utm_campaign=birdieapi-mcp
 
 ```
 You:    "How did Scottie Scheffler score on each hole of the 2025 Masters?"
@@ -118,15 +118,15 @@ python3 examples/python/quickstart.py
 node examples/node/quickstart.mjs
 ```
 
-See [`examples/README.md`](examples/README.md) for details. Get a free key (500 credits a month, no card) at https://birdieapi.com/signup.
+See [`examples/README.md`](examples/README.md) for details. Get a free key (500 credits a month, no card) at https://birdieapi.com/signup.?utm_source=github&utm_medium=readme&utm_campaign=birdieapi-mcp
 
 ## Use it in
 
-- **Claude, ChatGPT, Cursor, VS Code, Gemini CLI, Grok, Perplexity, Le Chat:** add `https://mcp.birdieapi.com/mcp` as a remote MCP server. Step-by-step for each: https://birdieapi.com/mcp
+- **Claude, ChatGPT, Cursor, VS Code, Gemini CLI, Grok, Perplexity, Le Chat:** add `https://mcp.birdieapi.com/mcp` as a remote MCP server. Step-by-step for each: https://birdieapi.com/mcp?utm_source=github&utm_medium=readme&utm_campaign=birdieapi-mcp
 - **Gemini CLI:** `gemini extensions install https://github.com/noahowsh/birdieapi-mcp`
 - **Cursor:** the [SportsDataHQ plugins for Cursor](https://github.com/noahowsh/sportsdatahq-cursor-plugins)
-- **Google Sheets:** `=SDHQ("birdieapi","list_tournaments")` fills a live table: https://sportsdatahq.com/sheets
-- **REST:** `POST https://mcp.birdieapi.com/v1/<tool>` with an `x-api-key` header: https://birdieapi.com/docs
+- **Google Sheets:** `=SDHQ("birdieapi","list_tournaments")` fills a live table: https://sportsdatahq.com/sheets?utm_source=github&utm_medium=readme&utm_campaign=birdieapi-mcp
+- **REST:** `POST https://mcp.birdieapi.com/v1/<tool>` with an `x-api-key` header: https://birdieapi.com/docs?utm_source=github&utm_medium=readme&utm_campaign=birdieapi-mcp
 
 ## Tools (14)
 
@@ -158,24 +158,24 @@ Leagues: golf (default, PGA Tour), lpga, liv, dpwt, kornferry (pass `league` to 
 - Major winner odds (`get_winner_odds`): outright winner prices of the four men's majors by sportsbook, opening and latest before the first round, every major from 2021 plus the 2020 U.S. Open (a past major's latest price can be up to a week before the first tee time), refreshed daily while an upcoming major's market is open and every six hours in tournament week
 - No round, matchup, top-10 or other-tournament prices, and no prices for the other tours
 
-Coverage by season, read live from the database: https://birdieapi.com/docs
+Coverage by season, read live from the database: https://birdieapi.com/docs?utm_source=github&utm_medium=readme&utm_campaign=birdieapi-mcp
 
 ## Pricing
 
-500 free credits every month, no card. Plans: Starter $19/mo (10,000 credits), Pro $49/mo (30,000), Scale $149/mo (125,000). Wallet top-ups from $5, never expire. https://birdieapi.com/pricing
+500 free credits every month, no card. Plans: Starter $19/mo (10,000 credits), Pro $49/mo (30,000), Scale $149/mo (125,000). Wallet top-ups from $5, never expire. https://birdieapi.com/pricing?utm_source=github&utm_medium=readme&utm_campaign=birdieapi-mcp
 
 ## Useful pages
 
-- Docs: https://birdieapi.com/docs (every endpoint, with a real response)
-- Data atlas, coverage by season: https://birdieapi.com/data
-- Golf majors odds board (winner prices by sportsbook): https://birdieapi.com/odds
-- Major winner odds data: https://birdieapi.com/data/major-winner-odds
-- Hole-by-hole data: https://birdieapi.com/data/pga-tour-hole-by-hole-data
-- Guides (Python, JavaScript and cURL): https://birdieapi.com/guides
-- Glossary (strokes versus the field, field strength, par-type splits): https://birdieapi.com/glossary
-- Pricing: https://birdieapi.com/pricing
-- For bettors and modellers: https://birdieapi.com/for/bettors
-- Compare: [Data Golf API](https://birdieapi.com/compare/data-golf-api), [ESPN's golf JSON](https://birdieapi.com/compare/espn-golf-api), [SportsDataIO](https://birdieapi.com/compare/sportsdataio-golf), [Sportradar](https://birdieapi.com/compare/sportradar-golf)
+- Docs: https://birdieapi.com/docs?utm_source=github&utm_medium=readme&utm_campaign=birdieapi-mcp (every endpoint, with a real response)
+- Data atlas, coverage by season: https://birdieapi.com/data?utm_source=github&utm_medium=readme&utm_campaign=birdieapi-mcp
+- Golf majors odds board (winner prices by sportsbook): https://birdieapi.com/odds?utm_source=github&utm_medium=readme&utm_campaign=birdieapi-mcp
+- Major winner odds data: https://birdieapi.com/data/major-winner-odds?utm_source=github&utm_medium=readme&utm_campaign=birdieapi-mcp
+- Hole-by-hole data: https://birdieapi.com/data/pga-tour-hole-by-hole-data?utm_source=github&utm_medium=readme&utm_campaign=birdieapi-mcp
+- Guides (Python, JavaScript and cURL): https://birdieapi.com/guides?utm_source=github&utm_medium=readme&utm_campaign=birdieapi-mcp
+- Glossary (strokes versus the field, field strength, par-type splits): https://birdieapi.com/glossary?utm_source=github&utm_medium=readme&utm_campaign=birdieapi-mcp
+- Pricing: https://birdieapi.com/pricing?utm_source=github&utm_medium=readme&utm_campaign=birdieapi-mcp
+- For bettors and modellers: https://birdieapi.com/for/bettors?utm_source=github&utm_medium=readme&utm_campaign=birdieapi-mcp
+- Compare: [Data Golf API](https://birdieapi.com/compare/data-golf-api?utm_source=github&utm_medium=readme&utm_campaign=birdieapi-mcp), [ESPN's golf JSON](https://birdieapi.com/compare/espn-golf-api?utm_source=github&utm_medium=readme&utm_campaign=birdieapi-mcp), [SportsDataIO](https://birdieapi.com/compare/sportsdataio-golf?utm_source=github&utm_medium=readme&utm_campaign=birdieapi-mcp), [Sportradar](https://birdieapi.com/compare/sportradar-golf?utm_source=github&utm_medium=readme&utm_campaign=birdieapi-mcp)
 
 ## Attribution
 
@@ -193,7 +193,7 @@ Add this repo as a Codex plugin marketplace, then install the plugin:
 codex plugin marketplace add noahowsh/birdieapi-mcp
 ```
 
-Then open the plugin directory in Codex and install `birdieapi-skills` from the `birdieapi` marketplace. The plugin bundles the skills in `skills/` and the BirdieAPI MCP server (https://mcp.birdieapi.com/mcp). Set your key first (free at https://birdieapi.com/signup):
+Then open the plugin directory in Codex and install `birdieapi-skills` from the `birdieapi` marketplace. The plugin bundles the skills in `skills/` and the BirdieAPI MCP server (https://mcp.birdieapi.com/mcp). Set your key first (free at https://birdieapi.com/signup?utm_source=github&utm_medium=readme&utm_campaign=birdieapi-mcp):
 
 ```bash
 export BIRDIEAPI_API_KEY=your_key
@@ -208,4 +208,4 @@ export BIRDIEAPI_API_KEY=your_key
 gemini extensions install https://github.com/noahowsh/birdieapi-mcp
 ```
 
-The extension adds the BirdieAPI MCP server (https://mcp.birdieapi.com/mcp) and sends the key in the `x-api-key` header. Get a free key (500 credits a month) at https://birdieapi.com/signup.
+The extension adds the BirdieAPI MCP server (https://mcp.birdieapi.com/mcp) and sends the key in the `x-api-key` header. Get a free key (500 credits a month) at https://birdieapi.com/signup.?utm_source=github&utm_medium=readme&utm_campaign=birdieapi-mcp
