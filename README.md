@@ -118,7 +118,7 @@ python3 examples/python/quickstart.py
 node examples/node/quickstart.mjs
 ```
 
-See [`examples/README.md`](examples/README.md) for details. Get a free key (500 credits a month, no card) at https://birdieapi.com/signup.?utm_source=github&utm_medium=readme&utm_campaign=birdieapi-mcp
+See [`examples/README.md`](examples/README.md) for details. Get a free key (500 credits a month, no card) at https://birdieapi.com/signup?utm_source=github&utm_medium=readme&utm_campaign=birdieapi-mcp.
 
 ## Use it in
 
@@ -208,4 +208,4 @@ export BIRDIEAPI_API_KEY=your_key
 gemini extensions install https://github.com/noahowsh/birdieapi-mcp
 ```
 
-The extension adds the BirdieAPI MCP server (https://mcp.birdieapi.com/mcp) and sends the key in the `x-api-key` header. Get a free key (500 credits a month) at https://birdieapi.com/signup.?utm_source=github&utm_medium=readme&utm_campaign=birdieapi-mcp
+The extension adds the BirdieAPI MCP server (https://mcp.birdieapi.com/mcp) and sends the key in the `x-api-key` header. Get a free key (500 credits a month) at https://birdieapi.com/signup?utm_source=github&utm_medium=readme&utm_campaign=birdieapi-mcp.
